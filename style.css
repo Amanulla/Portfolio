@@ -1,34 +1,35 @@
-*{
+* {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-.box1{
-  color:blue;
+.box1 {
+  color: blue;
   font-size: 25px;
   display: block;
-  position:fixed;
+  position: fixed;
   padding: 10px;
 }
-.background-image{
-    padding-top: 70px;
+
+.background-image {
+  padding-top: 70px;
 }
 
-.box2{
-    color: blue;
-    display: block;
-    position: fixed;
-    right: 35px;
-    top: 30px;
-  }
-  .onscreen{
-      text-align:left;
-      position:absolute;
-      font-size: 20px;
-      padding: 100px 50px 20px 50px;
-  }
- 
+.box2 {
+  color: blue;
+  display: block;
+  position: fixed;
+  right: 35px;
+  top: 30px;
+}
+
+.onscreen {
+  text-align: left;
+  position: absolute;
+  font-size: 20px;
+  padding: 100px 50px 20px 50px;
+}
 
 .container {
   display: flex;
