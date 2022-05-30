@@ -265,20 +265,6 @@ body.active {
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
-
-  /* font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #396DF2;
-  flex: none;
-  order: 0;
-  flex-grow: 0; */
 }
 
 .button:hover {
@@ -403,6 +389,7 @@ body.active {
   font-size: 15px;
   line-height: 24px;
   color: #b3bac5;
+  margin-top: 2px;
 }
 
 input[type=text],
