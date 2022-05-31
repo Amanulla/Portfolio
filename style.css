@@ -168,6 +168,7 @@ body.active {
 .back1 {
   background-color: #e5e5e5;
   background-image: url(images/Base2.png);
+  background-repeat: no-repeat;
 }
 
 .navbar a {
@@ -181,7 +182,8 @@ body.active {
 
 .spacebetween {
   padding: 57px 0;
-  background-color: #e5e5e5;
+
+  /* background-color: #e5e5e5; */
 }
 
 /* ---------------------------------------------------- work section css ------------------------------------------- */
@@ -189,19 +191,31 @@ body.active {
   background-color: #e5e5e5;
 }
 
-.row {
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+
+  /* background-color: #2196F3; */
+
+  /* padding: 10px; */
   width: 100%;
+
+  /* margin: 10px; */
   padding: 12px 24px;
+  background: #e5e5e5;
 }
 
-/* Remove extra left and right margins, due to padding */
-.column {
+/* .row {
+  width: 100%;
+  padding: 12px 24px;
+} */
+
+.grid-item {
   margin: -5px -8px;
   background-color: #e5e5e5;
 }
 
-/* Clear floats after the columns */
-.column::after {
+.grid-item::after {
   content: "";
   display: table;
   clear: both;
@@ -213,6 +227,14 @@ body.active {
   background-color: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
+  margin: 88px 0;
+}
+
+.inrow {
+  display: inline;
+  justify-content: space-around;
+  text-align: center;
+  margin: 4px;
 }
 
 .workimage {
@@ -268,7 +290,7 @@ body.active {
 }
 
 .button:hover {
-  background-color: #008cba;
+  background-color: #6070ff;
   color: white;
 }
 
