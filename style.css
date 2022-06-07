@@ -76,6 +76,7 @@ body.active {
 .customise {
   font-size: 16px;
   line-height: 28px;
+  width: 327px;
   color: #344563;
   margin: 12px 24px;
 }
@@ -307,6 +308,7 @@ body.active {
 
 .languages {
   padding: 36px 36px 0 36px;
+  width: 327px;
   display: flex;
   justify-content: space-between;
   font-size: 20px;
@@ -350,6 +352,10 @@ body.active {
   padding: 24px;
   margin: 10px 0;
   align-items: center;
+}
+
+hr {
+  width: 327px;
 }
 
 .js1 {
@@ -440,13 +446,17 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #6070ff;
+  color: #fff;
 }
 
 input[type=text],
+input[type=email],
 select,
 textarea {
-  width: 100%;
+  width: 327px;
+  height: 48px;
+  display: flex;
   padding: 20px;
   margin: 8px 0;
   border: 1px solid #ccc;
