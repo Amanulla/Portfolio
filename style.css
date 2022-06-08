@@ -367,9 +367,8 @@ hr {
   list-style-type: none;
 }
 
-.contact {
+.contact-box {
   background-image: url(images/Contactme.png);
-  margin-bottom: 10px;
   background-color: white;
   background-repeat: no-repeat;
 }
