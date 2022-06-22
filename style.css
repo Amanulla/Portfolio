@@ -18,11 +18,11 @@ body {
   background-repeat: no-repeat;
   border-radius: 0 0 0 80px;
   width: 375px;
-  height: 718px;
+  /* height: 718px; */
   left: 0;
   right: 0;
   top: 0;
-  background-position: 0% 80%;
+  /* background-position: 0% 80%; */
 }
 
 header {
@@ -52,7 +52,7 @@ body.active {
   font-weight: 700;
   line-height: 52px;
   color: #172b4d;
-  padding: 206px 24px 0;
+  padding: 115px 24px 0;
 }
 
 .logo {
