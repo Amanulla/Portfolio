@@ -43,7 +43,6 @@ nav .logo {
 }
 
 @media (max-width: 800px) {
-  
   nav .mainMenu {
     height: 100vh;
     font-family: 'Poppins', sans-serif;
@@ -85,5 +84,4 @@ nav .logo {
     display: inline-block;
     padding: 12px;
   }
-  
 }
