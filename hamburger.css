@@ -5,10 +5,12 @@ nav {
   align-items: center;
   justify-content: space-between;
 }
+
 nav .mainMenu {
   display: flex;
   list-style: none;
 }
+
 nav .mainMenu li a {
   display: inline-block;
   padding: 15px;
@@ -41,25 +43,26 @@ nav .logo {
 }
 
 @media (max-width: 800px) {
+  
   nav .mainMenu {
     height: 100vh;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     line-height: 44px;
     position: fixed;
     padding-top: 50px;
-    right: 0px;
-    left: 0px;
+    right: 1px;
+    left: 1px;
     z-index: 10;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: left;
+    align-items: flex-start;
     padding-left: 10px;
     background: #6070ff;
     opacity: 0.97;
     transition: top 1s ease 0s;
-    display: none; 
+    display: none;
   }
 
   nav .mainMenu .closeMenu {
@@ -68,16 +71,19 @@ nav .logo {
     top: 20px;
     right: 20px;
   }
+
   nav .openMenu {
     display: block;
   }
+
   nav .mainMenu li a:hover {
     background: none;
     color: rgb(255, 123, 0);
   }
+
   .icons i {
     display: inline-block;
     padding: 12px;
   }
+  
 }
-
