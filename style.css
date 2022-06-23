@@ -13,24 +13,7 @@ body {
   overflow-x: hidden;
 }
 
-body:after {
-  content: '';
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
-  background-image: url("images/background.PNG");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  background-size: cover;
-  -webkit-filter: blur(10px);
-  -moz-filter: blur(10px);
-  filter: blur(10px);
-
-}
-
- .background {
+.background {
   background-image: url("images/header-shapes-mobile.png");
   background-repeat: no-repeat;
   border-radius: 0 0 0 80px;
@@ -157,10 +140,6 @@ body.active {
   display: flex;
   list-style-type: none;
 }
-/*
-.fa-brands {
-  width: 38px;
-}*/
 
 .back1 {
   background-color: #e5e5e5;
@@ -464,7 +443,7 @@ textarea {
 @media screen and (min-width: 768px) {
   .closeMenu {
     display: none;
-  }  
+  }
 
   li a {
     text-decoration: none;
@@ -490,7 +469,7 @@ textarea {
     background-color: white;
     color: #6070ff;
     position: fixed;
-    top: 0px;
+    top: 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -505,7 +484,7 @@ textarea {
     list-style: none;
   }
 
-  ul>li {
+  ul > li {
     margin: 10px;
   }
 

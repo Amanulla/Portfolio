@@ -47,12 +47,8 @@
   nav .openMenu {
     font-size: 1.5rem;
     margin: 40px;
-    display: none;
-    cursor: pointer;
-  }
-
-  nav .openMenu {
     display: block;
+    cursor: pointer;
   }
 
   .icons i {
