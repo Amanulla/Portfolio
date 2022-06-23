@@ -13,6 +13,23 @@ body {
   overflow-x: hidden;
 }
 
+body:after {
+  content: '';
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("images/background.PNG");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  filter: blur(10px);
+
+}
+
 .background {
   background-image: url("images/header-shapes-mobile.png");
   background-repeat: no-repeat;
