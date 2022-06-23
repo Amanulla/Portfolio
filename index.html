@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="hamburger.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
@@ -14,23 +15,26 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;1,100&display=swap"
     rel="stylesheet">
+    <script src="https://kit.fontawesome.com/38bae44235.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <title>Aman's Portfolio</title>
 </head>
 
 <body>
-  <div class="background">
-    <header class="navbar">
-      <div class="logo">
-        <a href="#">Aman</a>
-      </div>
-      <div class="menu">
-        <a href="#"><i class="fa fa-bars"></i></a>
-      </div>
-    </header>
-    <section class="onscreen">
-      <h1 class="bold">I'm Amanulla Glad to see you!</h1>
-      <p class="customise">I’m a software developer! I can help you build a product , feature or website Look through
+  <div class="background background1">
+    <nav class="navbar">
+      <div class="logo"><h2>Aman</h2></div>
+      <div class="openMenu"><i class="fa fa-bars"></i></div>
+      <ul class="mainMenu">
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li class="closeMenu"><img src="images/cross.png" alt="close button"> </li>
+      </ul>
+    </nav>
+    <div>
+      <h1 class="bold heading">I'm Amanulla <br>Glad to see you!</h1>
+      <p class="customise customise2">I’m a software developer! I can help you build a product , feature or website Look through
         some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to
         contact me.</p>
       <h3 class="next-color">LET'S CONNECT</h3>
@@ -46,12 +50,34 @@
         <li><a href="https://vuejs.org/"><img class="victory" src="images/img_trans.gif" width="1" height="1"
               alt="victory-image"></a></li>
       </ul>
-    </section>
+    </div>
   </div>
   <!-- This is work section -->
-  <div class="grid-container">
+  <div class="grid-container" id="portfolio">
     <section class="workbackround">
       <div class="grid-item">
+        <div class="card1">
+          <div class="workimage1 col-6">
+            <img src="images/Snapshoot-Portfolio1.png" alt="1st work immage">
+          </div>
+          <div class="sidepart1 col-6">
+            <h2 class="tonic1">Tonic</h2> <br>
+            <p>
+              <span class="inrow1"><b>CANOPY</b> </span><span class="inrow"><img src="images/Counter.png"
+                  alt="counter1"></span><span class="inrow"> Back End Dev </span><span class="inrow"><img
+                  src="images/Counter.png" alt="counter"></span><span class="inrow1"> 2015</span>
+            </p><br>
+            <p class="innerpara1">A daily selection of privately personalized reads; no accounts or sign-ups
+              required.
+            </p><br>
+            <ul>
+              <li class="back4">html</li>
+              <li class="back4">css</li>
+              <li class="back4">javascript</li>
+            </ul><br>
+            <button type="button" class="button button4">See Project</button>
+          </div>
+        </div>
         <div class="card">
           <div class="workimage">
             <img src="images/Snapshoot-portfolio.jpg" alt="1st work immage">
@@ -71,6 +97,32 @@
             <button type="button" class="button button4">See Project</button>
           </div>
         </div>
+
+        <div class="card1 ">
+          <div class="sidepart2 col-6">
+            <h2 class="tonic1"><b>Multi-Post Stories</b></h2>
+            <br>
+            <p>
+              <span class="inrow1"><b>FACEBOOK </b></span><span class="inrow1"><img src="images/Counter.png"
+                  alt="counter"></span><span class="inrow1"> Full Stack Dev </span><span class="inrow1"><img
+                  src="images/Counter.png" alt="counter"></span><span class="inrow1"> 2015</span>
+            </p><br>
+            <p class="innerpara1">Experimental content creation feature that allows users to add to an existing story
+              over the course of a day without spamming their friends.
+            </p><br>
+            <ul>
+              <li class="back4">html</li>
+              <li class="back4">Ruby on rails</li>
+              <li class="back4">css</li>
+              <li class="back4">javascript</li>
+            </ul><br>
+            <button type="button" class="button button4">See Project</button>
+          </div>
+          <div class="workimage1 col-6">
+            <img src="images/Snapshoot-Portfolio2.png" alt="2nd work immage">
+          </div>
+        </div>
+
         <div class="card">
           <div class="workimage">
             <img src="images/Snapshoot1.png" alt="2nd work immage">
@@ -91,6 +143,33 @@
             <button type="button" class="button button4">See Project</button>
           </div>
         </div>
+
+        <div class="card1">
+          <div class="workimage1 col-6">
+            <img src="images/Snapshoot-Portfolio3.png" alt="4th work immage">
+          </div>
+          <div class="sidepart1 col-6">
+            <h2 class="tonic1">FACEBOOK 360</h2>
+            <br>
+            <p>
+              <span class="inrow1"><b>FACEBOOK </b></span><span class="inrow1"><img src="images/Counter.png"
+                  alt="counter1"></span><span class="inrow1"> Full Stack Dev </span><span class="inrow1"><img
+                  src="images/Counter.png" alt="counter"></span><span class="inrow1"> 2015</span>
+            </p><br>
+            <p class="innerpara1">Experimental content creation feature that allows users to add to an existing story
+              over the course of a day without spamming their friends.
+            </p><br>
+            <ul>
+              <li class="back4">html</li>
+              <li class="back4">Ruby on rails</li>
+              <li class="back4">css</li>
+              <li class="back4">javascript</li>
+            </ul><br>
+            <button type="button" class="button button4">See Project</button>
+            <img align="right" src="images/hand-cursor.png" alt="hand cursor">
+          </div>
+        </div>
+
         <div class="card">
           <div class="workimage">
             <img src="images/Snapshoot2.png" alt="4th work immage">
@@ -111,6 +190,33 @@
             <button type="button" class="button button4">See Project</button>
           </div>
         </div>
+
+        <div class="card1">
+          <div class="sidepart2 col-6">
+            <h2 class="tonic1">Uber Navigation</h2>
+            <br>
+            <p>
+              <span class="inrow1"><b>Uber </b></span><span class="inrow1"><img src="images/Counter.png"
+                  alt="counter1"></span><span class="inrow1"> Lead developer </span><span class="inrow1"><img
+                  src="images/Counter.png" alt="counter1"></span>
+              <span class="inrow1"> 2018</span>
+            </p><br>
+            <p class="innerpara1">A smart assistant to make driving more safe, efficient, and fun by unlocking your
+              most expensive computer: your car.
+            </p><br>
+            <ul>
+              <li class="back4">html</li>
+              <li class="back4">Ruby on rails</li>
+              <li class="back4">css</li>
+              <li class="back4">javascript</li>
+            </ul><br>
+            <button type="button" class="button button4">See Project</button>
+          </div>
+          <div class="workimage1 col-6">
+            <img src="images/Snapshoot-Portfolio4.png" alt="3rd work immage">
+          </div>
+        </div>
+
         <div class="card">
           <div class="workimage">
             <img src="images/Snapshoot3.png" alt="3rd work immage">
@@ -135,7 +241,78 @@
       </div>
     </section>
   </div>
-  <section class="onscreen back1">
+
+  <div class="container" id="about">
+    <section class="back2">
+      <div class="item1">
+
+        <p class="bold2">About<span><br>Myself</span></p>
+        <p class="customise customise1">Hello I’m a software developer! I can help you build a product , feature or website Look
+          through some of my work and experience! If you like what you see and have a project you need coded, don’t
+          hestiate
+          to contact me.</p>
+        <h3 class="letsconnect">LET'S CONNECT</h3>
+        <div class="social-media">
+          <ul class="onerow1">
+            <li><a href="https://github.com/"><img class="github1" src="images/img_trans.gif" width="1" height="1"
+              alt="github-image"></a></li>
+        <li><a href="https://www.linkedin.com/"><img class="linkedin1" src="images/img_trans.gif" width="1" height="1"
+              alt="linkedin-image"></a></li>
+        <li><a href="https://vuejs.org/"><img class="victory1" src="images/img_trans.gif" width="1" height="1"
+              alt="victory-image"></a></li>
+        <li><a href="https://twitter.com/"><img class="twitter1" src="images/img_trans.gif" width="1" height="1"
+              alt="twitter-image"></a></li>
+        <li><a href="https://medium.com/"><img class="medium1" src="images/img_trans.gif" width="1" height="1"
+              alt="medium-image"></a></li>
+          </ul>
+        </div>
+        <br>
+        <button type="button" class="button button4">Get my resume</button>
+      </div>
+
+      <div class="item2">
+        <div class="languages2">
+          <h4 class="languages1">Languages</h4>
+          <p class="arrow"><img src="images/Vector1.png" alt="Down arrow">
+          </p>
+        </div>
+        <div class="lang2">
+          <ul class="nodots">
+            <li>
+              <div class="langcolor"><img src="images/Frame9.png" alt="js image">
+              </div>
+            </li>
+            <li>
+              <div class="langcolor"><img src="images/Frame10.png" alt="html5 image">
+              </div>
+            </li>
+            <li>
+              <div class="langcolor"><img src="images/Frame11.png" alt="css3 image">
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="lang1">
+          <ul class="nodots1">
+            <li>
+              <p class="js">Frameworks<span class="arrow"><img src="images/right.png" alt="right arrow"> </span></p>
+            </li>
+            <li>
+              <hr>
+            </li>
+            <li>
+              <p class="js">Skills<span class="arrow1"><img src="images/right.png" alt="right arrow"> </span></p>
+            </li>
+            <li>
+              <hr>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="back1">
     <p class="bold">About<span><br>Myself</span></p>
     <p class="customise">Hello I’m a software developer! I can help you build a product , feature or website Look
       through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate
@@ -155,14 +332,14 @@
     </ul>
     <br>
     <button type="button" class="button button3 button4">Get my resume</button>
-  </section>
+  </div>
 
   <!-- About Section -->
-  <section class="onscreen">
+  <section>
     <div class="languages">
       <h4 class="languages1">Languages</h4>
-      <p class="arrow"><img src="images/Vector1.png" alt="Down arrow">
-      <p>
+      <p class="arrow"><img src="images/Vector1.png" alt="Down arrow"></p>
+      
     </div>
     <div class="lang">
       <ul class="nodots">
@@ -176,13 +353,13 @@
           <div class="js langcolor"><img src="images/css3.png" alt="css3 image"><span class="js1">CSS</span></div>
         </li>
         <li>
-          <p class="js">Frameworks<span class="arrow"><img src="images/right.jpg" alt="right arrow"> </span></p>
+          <p class="js">Frameworks<span class="arrow"><img src="images/right.png" alt="right arrow"> </span></p>
         </li>
         <li>
           <hr>
         </li>
         <li>
-          <p class="js">Skills<span class="arrow1"><img src="images/right.jpg" alt="right arrow"> </span></p>
+          <p class="js">Skills<span class="arrow1"><img src="images/right.png" alt="right arrow"> </span></p>
         </li>
         <li>
           <hr>
@@ -193,7 +370,7 @@
 
   <!-- Contact section -->
   <footer>
-    <section class="contact-box">
+    <section class="contact-box" id="contact">
       <div class="cback">
         <h3 class="bold1">Contact me</h3>
         <p class="more">If you have an application you are interested in developing, a feature that you need built or a
@@ -209,6 +386,7 @@
       </div>
     </section>
   </footer>
+  <script src="app.js"></script>
 </body>
 
 </html>

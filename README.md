@@ -1,9 +1,13 @@
-# Portfolio
-This is a mobile vertion of portfolio webpage where you can find few projects in portfolio.
+# Portfolio-Desktop
+This is a portfolio webpage designe choosing from the figma templates, where i used media queries to make a mobile webpage rise to desktop page.
 ## Built With
 * HTML
 * CSS
 * Git
+
+## Live Demo 
+
+[Live Demo]([absolute link](https://amanulla.github.io/portfolio-desktop/))
 
 ## Getting Started
 
@@ -20,7 +24,7 @@ From the terminal, follow the following procedure:
 * Clone the repostory into your local machine
 use the command git clone
 * Navigate into the repostory with the command below
-cd portfolio
+cd portfolio-desktop
 
 ## Authors
 

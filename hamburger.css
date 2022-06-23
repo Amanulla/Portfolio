@@ -1,0 +1,58 @@
+@media (max-width: 768px) {
+  nav .mainMenu {
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    list-style: none;
+    height: 100vh;
+    line-height: 60px;
+    position: fixed;
+    padding-top: 50px;
+    right: 1px;
+    left: 1px;
+    z-index: 10;
+    flex-direction: column;
+    padding-left: 35px;
+    background: #6070ff;
+    opacity: 0.9;
+    transition: top 1s ease 0s;
+    display: none;
+  }
+
+  nav .logo {
+    margin: 25px;
+    cursor: pointer;
+  }
+
+  nav .mainMenu .closeMenu {
+    display: block;
+    position: absolute;
+    top: 11px;
+    right: 42px;
+  }
+
+  .navbar {
+    position: fixed;
+    width: 100%;
+  }
+
+  .navbar a {
+    text-decoration: none;
+    color: white;
+  }
+
+  nav .openMenu {
+    font-size: 1.5rem;
+    margin: 40px;
+    display: block;
+    cursor: pointer;
+  }
+
+  .icons i {
+    display: inline-block;
+    padding: 12px;
+  }
+}

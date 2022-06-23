@@ -1,0 +1,18 @@
+Page titles - No issue found 
+Image text alternatives** (<img alt="alt text">)- No image Alt in [https://github.com/Amanulla/portfolio-desktop/blob/cf189f4ebd33680bb5bb4d88e4582468919e3496/index.html#L171]
+Text headings  - Heading elements are not in a sequentially-descending order
+line 256
+Color contrast - Background and foreground colors do not have a sufficient contrast ratio.
+lines [https://github.com/Amanulla/portfolio-desktop/blob/cf189f4ebd33680bb5bb4d88e4582468919e3496/index.html#L76-L79] ,
+ [https://github.com/Amanulla/portfolio-desktop/blob/cf189f4ebd33680bb5bb4d88e4582468919e3496/index.html#L95-L97] , 
+ [https://github.com/Amanulla/portfolio-desktop/blob/cf189f4ebd33680bb5bb4d88e4582468919e3496/index.html#L116-L119] , 
+ [https://github.com/Amanulla/portfolio-desktop/blob/cf189f4ebd33680bb5bb4d88e4582468919e3496/index.html#L141-L143],
+ [https://github.com/Amanulla/portfolio-desktop/blob/cf189f4ebd33680bb5bb4d88e4582468919e3496/index.html#L165-L168] 
+ ,[https://github.com/Amanulla/portfolio-desktop/blob/cf189f4ebd33680bb5bb4d88e4582468919e3496/index.html#L188-L190]
+ ,[https://github.com/Amanulla/portfolio-desktop/blob/cf189f4ebd33680bb5bb4d88e4582468919e3496/index.html#L210-L213] 
+ [https://github.com/Amanulla/portfolio-desktop/blob/cf189f4ebd33680bb5bb4d88e4582468919e3496/index.html#L236-L239]
+Resize  - No issue found 
+Interaction  - No issue found 
+Moving content - No moving Content in our page 
+Multimedia - No multimedia  in our page 
+The basic structure of the page - It is good 
