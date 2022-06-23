@@ -13,25 +13,8 @@ body {
   overflow-x: hidden;
 }
 
-body:after {
-  content: '';
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
-  background-image: url("images/background.PNG");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  background-size: cover;
-  -webkit-filter: blur(10px);
-  -moz-filter: blur(10px);
-  filter: blur(10px);
-
-}
-
- .background {
-  background-image: url("images/header-shapes-mobile.png");
+.background {
+  background-image: url("../../images/header-shapes-mobile.png");
   background-repeat: no-repeat;
   border-radius: 0 0 0 80px;
   width: 375px;
@@ -40,6 +23,13 @@ body:after {
   right: 0;
   top: 0;
   background-position: 0% 80%;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
 
 .navbar {
@@ -65,6 +55,24 @@ body.active {
   padding: 206px 24px 0;
 }
 
+.logo {
+  width: 76px;
+  height: 20px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  color: #6070ff;
+  padding-left: 24px;
+}
+
+.menu {
+  padding-right: 50px;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
 .customise {
   font-size: 16px;
   line-height: 28px;
@@ -84,35 +92,35 @@ body.active {
 .twitter {
   width: 36px;
   height: 35px;
-  background: url(images/sprite.png) 0 0;
+  background: url(../../images/sprite.png) 0 0;
   margin-left: 24px;
 }
 
 .linkedin {
   width: 36px;
   height: 35px;
-  background: url(images/sprite.png) -35px 0;
+  background: url(../../images/sprite.png) -35px 0;
   margin-left: -5px;
 }
 
 .medium {
   width: 36px;
   height: 35px;
-  background: url(images/sprite.png) -70px 0;
+  background: url(../../images/sprite.png) -70px 0;
   margin-left: -5px;
 }
 
 .github {
   width: 36px;
   height: 35px;
-  background: url(images/sprite.png) -111px 0;
+  background: url(../../images/sprite.png) -111px 0;
   margin-left: 4px;
 }
 
 .victory {
   width: 36px;
   height: 35px;
-  background: url(images/sprite.png) -145px 0;
+  background: url(../../images/sprite.png) -145px 0;
   background-color: transparent;
   margin-left: -5px;
 }
@@ -120,21 +128,21 @@ body.active {
 .github1 {
   width: 36px;
   height: 35px;
-  background: url(images/sprite.png) -105px 0;
+  background: url(../../images/sprite.png) -105px 0;
   margin-left: 24px;
 }
 
 .linkedin1 {
   width: 36px;
   height: 35px;
-  background: url(images/sprite.png) -37px 0;
+  background: url(../../images/sprite.png) -37px 0;
   margin-left: 10px;
 }
 
 .victory1 {
   width: 36px;
   height: 35px;
-  background: url(images/sprite.png) -140px 0;
+  background: url(../../images/sprite.png) -140px 0;
   background-color: transparent;
   margin-left: -10px;
 }
@@ -142,14 +150,14 @@ body.active {
 .twitter1 {
   width: 36px;
   height: 35px;
-  background: url(images/sprite.png) 0 0;
+  background: url(../../images/sprite.png) 0 0;
   margin-left: 12px;
 }
 
 .medium1 {
   width: 36px;
   height: 35px;
-  background: url(images/sprite.png) -70px 0;
+  background: url(../../images/sprite.png) -70px 0;
   margin-left: -13px;
 }
 
@@ -157,15 +165,30 @@ body.active {
   display: flex;
   list-style-type: none;
 }
-/*
+
 .fa-brands {
   width: 38px;
-}*/
+}
 
 .back1 {
   background-color: #e5e5e5;
-  background-image: url(images/Base2.png);
+  background-image: url(../../images/Base2.png);
   background-repeat: no-repeat;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.spacebetween {
+  padding: 57px 0;
+
+  /* background-color: #e5e5e5; */
 }
 
 /* ---------------------------------------------------- work section css ------------------------------------------- */
@@ -263,7 +286,7 @@ body.active {
 .button:hover {
   background-color: #6070ff;
   color: white;
-  padding: 20px 20px;
+  /* padding: 20px 20px; */
 }
 
 .button4 {
@@ -339,7 +362,7 @@ hr {
 }
 
 .contact-box {
-  background-image: url(images/Contactme.png);
+  background-image: url(../../images/Contactme.png);
   background-color: white;
   background-repeat: no-repeat;
 }
@@ -452,6 +475,10 @@ textarea {
 /* ------------------------------------------------------------------------------------------------------------------- */
 
 @media screen and (max-width: 768px) {
+  .nav1 {
+    display: none;
+  }
+
   .card1 {
     display: none;
   }
@@ -462,16 +489,15 @@ textarea {
 }
 
 @media screen and (min-width: 768px) {
-  .closeMenu {
-    display: none;
-  }  
-
-  li a {
-    text-decoration: none;
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e5e5e5;
+    margin: 0;
+    overflow-x: hidden;
   }
 
   .background1 {
-    background-image: url("images/desktop-background.png");
+    background-image: url("../../images/desktop-background.png");
     background-repeat: no-repeat;
     background-color: #e5e5e5;
     background-size: cover;
@@ -482,33 +508,6 @@ textarea {
     border-radius: 0 0 0 1px;
   }
 
-  .openMenu {
-    display: none;
-  }
-
-  .navbar {
-    background-color: white;
-    color: #6070ff;
-    position: fixed;
-    top: 0px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 18px;
-    width: 100%;
-    height: 50px;
-    padding: 45px 0;
-  }
-
-  .mainMenu {
-    display: flex;
-    list-style: none;
-  }
-
-  ul>li {
-    margin: 10px;
-  }
-
   .logo {
     transition: font-size 2s;
   }
@@ -516,6 +515,17 @@ textarea {
   .logo:hover {
     width: 300px;
     font-size: 50px;
+  }
+
+  .navbar1 {
+    background-color: white;
+    color: #6070ff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    height: 50px;
+    padding: 45px 155px;
   }
 
   .heading {
@@ -534,7 +544,7 @@ textarea {
   .github1 {
     width: 36px;
     height: 35px;
-    background: url(images/sprite.png) -105px 0;
+    background: url(../../images/sprite.png) -105px 0;
     margin-left: -6px;
   }
 
@@ -561,6 +571,17 @@ textarea {
     margin-left: 265px;
     margin-bottom: 12px;
   }
+
+    a:link { text-decoration: none;}
+
+
+    a:visited { text-decoration: none;}
+
+
+    a:hover { text-decoration: none; color: white;}
+
+
+    a:active { text-decoration: none; }
 
   #hand {
     position: 180px 100px;
@@ -645,7 +666,7 @@ textarea {
   }
 
   .container {
-    background-image: url(images/about-desktop.png);
+    background-image: url(../../images/about-desktop.png);
     display: grid;
     grid-template-columns: 548px auto;
     gap: 14px;
@@ -654,17 +675,17 @@ textarea {
   }
 
   .back2 {
-    background-image: url(images/about-myselff.png);
+    background-image: url(../../images/about-myselff.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     background-position: 0 100px;
     padding: 100px 102px;
     margin: auto;
-    border-radius: 0 8px 0 0;
+    border-radius: 0 0 0 8px;
   }
 
-  .item1 {
+  .item8 {
     width: 445px;
     height: 102px;
     top: 126px;
@@ -674,7 +695,7 @@ textarea {
     line-height: 24px;
   }
 
-  .item2 {
+  .item9 {
     padding: 10px;
     grid-column-start: 2;
     grid-column-end: 4;
@@ -736,13 +757,13 @@ textarea {
   }
 
   .cback {
-    background-image: url("images/contact-form.png");
+    background-image: url("../../images/contact-form.png");
     color: #ebebff;
     font-size: 20px;
     font-weight: 100;
     display: grid;
     justify-content: space-evenly;
-    grid-template-columns: 569px;
+    grid-template-columns: 569px; /* Make the grid smaller than the container */
     gap: 10px;
     padding: 10px;
   }
@@ -822,6 +843,10 @@ textarea {
     align-items: center;
     color: #000;
   }
+
+  /* .arrow {
+    padding-left: 130px;
+  } */
 
   .arrow1 {
     padding-left: 188px;
