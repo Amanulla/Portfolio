@@ -127,15 +127,15 @@ body {
 .button:hover {
   background-color: #6070ff;
   color: white;
-
-  /* padding: 20px 20px; */
 }
 
 .button4 {
-  color: #396df2;
-  border: 1px solid #6070ff;
-  border-radius: 8px;
   background-color: #fff;
+  color: #396df2;
+  padding: 10px 5px;
+  border: 1px solid #6070ff;
+  text-decoration: none;
+  border-radius: 8px;
 }
 
 #img1 { display: block; }
