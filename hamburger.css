@@ -16,8 +16,8 @@
     z-index: 10;
     flex-direction: column;
     padding-left: 35px;
-    background: #6070ff;
-    opacity: 0.9;
+    backdrop-filter: blur(6px);
+    background-color: rgb(31 57 255 / 65%);
     transition: top 1s ease 0s;
     display: none;
   }

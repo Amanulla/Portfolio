@@ -541,10 +541,6 @@ textarea {
     margin-bottom: 12px;
   }
 
-  #hand {
-    position: 180px 100px;
-  }
-
   .onerow {
     display: flex;
     list-style-type: none;
