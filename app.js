@@ -20,3 +20,15 @@ menuItems.forEach((item) => {
     close();
   });
 });
+
+
+const submit = document.querySelector('.myButton');
+submit.addEventListener('click', (event) => {
+  const error = document.querySelector('.err');
+  const email = document.getElementById('emailAddress').value;
+  const islowerCase = (str) => str === str.toLowerCase();
+  if (!islowerCase(email)) {
+    event.preventDefault();
+    error.innerHTML = 'Please enter your email-id in lowercase';
+  }
+});

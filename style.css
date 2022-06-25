@@ -915,6 +915,22 @@ textarea {
     width: 100%;
   }
 
+  .button-wrapper .err {
+    width: 100%;
+    padding: 30px 24px;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    height: 18px;
+    left: 16px;
+    right: 38px;
+    top: calc(50% - 18px / 2);
+    color: red;
+    display: flex;
+  }
+
   .menu {
     display: none;
   }
