@@ -7,7 +7,7 @@ This is a portfolio webpage designe choosing from the figma templates, where i u
 
 ## Live Demo 
 
-[Live Demo]([absolute link](https://amanulla.github.io/portfolio-desktop/))
+[Live Demo]([absolute link](https://amanulla.github.io/Portfolio/))
 
 ## Getting Started
 
